@@ -21,7 +21,7 @@
 						<!--Offset works here to center content. Always
 						have a total of 12. In this case we only want 6 columns and by having two columns of 3 on each side this will center those two colunns of 6 -->
 						
-						<h2>Are you ready to take your coding skills to the <strong>next level</strong>?</h2>
+						<h2>Are you ready <strong>for the journey</strong>?</h2>
 						<p><a href="#" class="btn btn-lg btn-block btn-success">Yes. Sign me up!</a> </p>
 					</div> <!-- end col -->
 				</div>
@@ -43,15 +43,15 @@
 					<nav>
 					<ul class="list-unstyled list-inline">
 						<li><a href="">Home</a></li>
-						<li><a href="">Blog</a></li>
+						<!-- <li><a href="">Blog</a></li> -->
 						<li><a href="">Resources</a></li>
-						<li><a href="">Contact</a></li>
+						<!-- <li><a href="">Contact</a></li> -->
 						<li class="signup-link"><a href="">Sign up now</a></li>
 					</ul>
 				</nav>
 				</div> <!-- end col -->
 				<div class="col-sm-3">
-					<p class="pull-right">&copy; 2017 Matt Mueller</p>
+					<p class="pull-right">&copy; 2018 Matt Mueller</p>
 				</div> <!-- end col -->
 			</div>
 		</footer>

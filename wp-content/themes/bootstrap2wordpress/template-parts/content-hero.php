@@ -14,28 +14,14 @@ $button_text			= get_post_meta(7,'button_text',true);
 			<div class="row">
 
 				<div class="col-sm-5">
-					<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo-badge.png" alt="Bootstrap to WorldPress" class="logo">
+					<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/MH-Emblem.png" alt="Bootstrap to WorldPress" class="logo">
 				</div> <!-- col -->
 
 				<div class="col-sm-7 hero-text">
 					<h1><?php bloginfo('name') ?></h1>
 					<p class="lead"><?php bloginfo('description') ?></p>
-
-				<div id="price-timeline">
-					<div class="price active">
-						<h4>Pre-Launce Price<small>Ends Soon!</small> </h4>
-						<span> <?php echo $prelaunch_price; ?> </span><!-- price -->
-					</div>
-					<div class="price">
-						<h4>Launce Price <small>Coming Soon!</small> </h4>
-						<span><?php echo $launch_price; ?></span><!-- price -->
-					</div>
-					<div class="price">
-						<h4>Final Price <small>Coming Soon!</small> </h4>
-						<span><?php echo $final_price; ?></span>
-					</div> <!-- end price -->
 					</div><!-- price-timeline -->
-					<p><a class="btn btn-lg btn-danger" href=" <?php echo $course_url; ?> " role="button"> <?php echo $button_text; ?> </a></p>
+					<!-- <p><a class="btn btn-lg btn-danger" href=" <?php $course_url; ?> " role="button"> <?php $button_text; ?> </a></p> -->
 				</div> <!-- col -->
 			</div> <!-- row -->
 		</div> <!-- container -->	

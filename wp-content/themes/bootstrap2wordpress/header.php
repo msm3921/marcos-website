@@ -34,7 +34,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bootstrap2wordpress' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'Marcos Hernandez' ); ?></a>
 		<!-- HEADER -->
 		<header class="site-header" role="banner">
 			<!-- Navbar -->
@@ -51,7 +51,7 @@
 							</button>
 							<a class="navbar-brand"href="/">
 								<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo.png"
-								 alt="Bootstrap to WordPress"
+								 alt="Marcos Hernandez"
 								>
 							</a>
 						</div> <!--Navbar header-->
