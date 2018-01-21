@@ -34,9 +34,9 @@
 			<div class="container">
 				<div class="col-sm-3">
 					<p>
-						<a href="/">
+						<!-- <a href="/">
 							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Bootstrap to Wordpress">
-						</a> 
+						</a>  -->
 					</p>
 				</div> <!-- end col -->
 				<div class="col-sm-6">
@@ -51,7 +51,7 @@
 				</nav>
 				</div> <!-- end col -->
 				<div class="col-sm-3">
-					<p class="pull-right">&copy; 2018 Matt Mueller</p>
+					<p class="pull-right">&copy; 2018 Marcos Hernandez</p>
 				</div> <!-- end col -->
 			</div>
 		</footer>

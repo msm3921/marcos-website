@@ -4,7 +4,7 @@ $book_cover			= get_field('book_cover');
 $book_title			= get_field('book_title');
 $book_desc      	= get_field('book_description');
  ?>
-<!-- BOOST YOUR INCOME -->
+<!-- Book-->
 
 <section id="boost-income">
 	<div class="container">

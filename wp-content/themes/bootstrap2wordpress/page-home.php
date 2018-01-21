@@ -2,16 +2,6 @@
 
 /*
 Template Name: Home Page
-<?php get_template_part ('template-parts/content','video'); ?>
-<?php get_template_part ('template-parts/content','benefits'); ?>
-
-<?php get_template_part ('template-parts/content','courseFeatures'); ?>
-	
-<?php get_template_part ('template-parts/content','projectFeatures'); ?>
-
-<?php get_template_part ('template-parts/content','instructor'); ?>
-
-<?php get_template_part ('template-parts/content','testimonials'); ?>
 */ 
 
 
