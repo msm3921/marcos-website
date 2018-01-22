@@ -737,9 +737,23 @@ blockquote:before{
 /*HERO*/
 
 #hero{
-	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/Sci-Fi-Landscape.jpg') 50% 0 repeat fixed;
+	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/Sci-Fi-LandscapeRed.jpg') 50% 0 repeat fixed;
 	min-height: 500px;
-	padding: 40px 0;re
+	padding: 40px 0;
+	color:white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.hero-image{
+	display: table;
+	width: 100%;
+}
+
+.hero-image-default {
+	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/hero-bg.jpg') 50% 0 repeat fixed;
+	min-height: 500px;
+	padding: 40px 0;
 	color:white;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
