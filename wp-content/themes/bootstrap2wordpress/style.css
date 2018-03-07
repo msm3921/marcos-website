@@ -207,6 +207,10 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 input {
 	line-height: normal;
 }
@@ -668,7 +672,7 @@ button.btn:focus{
 }
 
 .btn-success{
-	background: #79b044;
+	background: #caa03f; /*#79b044;*/
 	border: none;
 }
 
@@ -736,11 +740,23 @@ blockquote:before{
 
 /*HERO*/
 
+/*@font-face {
+    font-family: 'kilogramregular';
+    src: url('/wp-content/themes/bootstrap2wordpress/assets/fontskilogram_kg-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/bootstrap2wordpress/assets/fontskilogram_kg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+/*LEFT OFF TRYING TO ADD kilogramregular FONT IN THE HERO SECTION*/
+
 #hero{
 	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/Sci-Fi-LandscapeRed.jpg') 50% 0 repeat fixed;
 	min-height: 500px;
 	padding: 40px 0;
-	color:white;
+	/*font-family: 'kilogramregular';*/
+	color:black;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
@@ -870,9 +886,9 @@ section h3{
 	color: white;
 }
 #optin {
-	background: #3e4249;
+	background: black; /*#3e4249;*/
 	padding: 20px 0;
-	color: white;
+	color: #caa03f; /*white;*/
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 	font-size: 1.2em;
