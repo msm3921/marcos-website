@@ -46,7 +46,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
@@ -165,7 +165,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 }
 
@@ -590,7 +590,7 @@ Blue Gray:  #3e4249
 
 body {
 	margin-top: 50px;
-	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/tile.jpg') top left repeat;
 }
@@ -640,7 +640,8 @@ p{
 }
 
 p.lead{
-	font-weight: normal;
+	font-weight: 400;
+	text-align: center;
 }
 
 a:link, a:visited{
@@ -664,6 +665,11 @@ button, input, .btn, a.btn {
 
 button.btn:focus{
 	outline: none !important;
+    background: white;
+	color: black;
+    /* background-color: #449d44; */
+    border-color: #255625;
+
 }
 
 .btn-danger{
@@ -672,12 +678,13 @@ button.btn:focus{
 }
 
 .btn-success{
-	background: #caa03f; /*#79b044;*/
+	background: #4A4A4A; /*#79b044;*/
 	border: none;
 }
 
 .btn-success:hover{
-	background: #6a9b3d;
+	background: white;
+	color: black;
 	border-color: #6a9b3d;
 }
 
@@ -740,22 +747,14 @@ blockquote:before{
 
 /*HERO*/
 
-/*@font-face {
-    font-family: 'kilogramregular';
-    src: url('/wp-content/themes/bootstrap2wordpress/assets/fontskilogram_kg-webfont.woff2') format('woff2'),
-         url('/wp-content/themes/bootstrap2wordpress/assets/fontskilogram_kg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}*/
-
-/*LEFT OFF TRYING TO ADD kilogramregular FONT IN THE HERO SECTION*/
 
 #hero{
-	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/Sci-Fi-LandscapeRed.jpg') 50% 0 repeat fixed;
+	background-color: black;
+	/*background: url('/wp-content/themes/bootstrap2wordpress/assets/img/Sci-Fi-LandscapeRed.jpg') 50% 0 repeat fixed;*/
+	/*background: url('/wp-content/themes/bootstrap2wordpress/assets/img/black-texture.jpg') 50% 0 repeat fixed;*/
 	min-height: 500px;
 	padding: 40px 0;
-	/*font-family: 'kilogramregular';*/
+	/*font-family: 'Montserrat', sans-serif;;*/
 	color:black;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -767,7 +766,7 @@ blockquote:before{
 }
 
 .hero-image-default {
-	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/hero-bg.jpg') 50% 0 repeat fixed;
+	/*background: url('/wp-content/themes/bootstrap2wordpress/assets/img/hero-bg.jpg') 50% 0 repeat fixed;*/
 	min-height: 500px;
 	padding: 40px 0;
 	color:white;
@@ -782,6 +781,11 @@ blockquote:before{
 
 #hero .hero-text{
 	margin-top: 30px;
+}
+
+.hero-text h1{
+	color:red;
+	font-weight: 400;
 }
 
 #price-timeline{
@@ -840,7 +844,7 @@ blockquote:before{
 }
 
 section{
-	padding: 80px 0;
+	padding: 30px 0;
 }
 
 section.main-content{
@@ -885,10 +889,52 @@ section h3{
 	text-align: center;
 	color: white;
 }
+
+/*Promo Section*/
+.promo-title{
+	color:red;
+}
+
+/*.container2 {
+  position: relative;
+  height: 14rem;
+  border: 1px solid;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px;
+}*/
+
+/*Content-Promo*/
+#content-promo{
+background-color: #4A4A4A
+}
+
+/*Content-Latest*/
+#content-latest{
+	background-color: black;
+}
+
+#content-latest h1{
+	color: white;
+}
+
+
+#content-latest h3{
+	color: red;
+}
+
+#content-latest p{
+	color: white;
+}
+
 #optin {
 	background: black; /*#3e4249;*/
 	padding: 20px 0;
-	color: #caa03f; /*white;*/
+	color: white ; /*white;*/
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 	font-size: 1.2em;
@@ -900,14 +946,16 @@ section h3{
 
 #signup{
 	text-align: center;
-	background: url("/wp-content/themes/bootstrap2wordpress/assets/img/hipster-stuff.jpg") center center repeat fixed;
+	background-color: black;
+	/*background: url("/wp-content/themes/bootstrap2wordpress/assets/img/hipster-stuff.jpg") center center repeat fixed;*/
 	background-size: cover;
-	color: white;
+	color: black;
 	padding: 140px 0;
 }	
 
 #signup h2{
 	font-weight: normal;
+	color:red;
 }
 
 #signup h2 strong{
@@ -919,7 +967,7 @@ section h3{
 }
 
 footer{
-	background: #3e4249;
+	background-color: #4A4A4A;
 	color: white;
 	padding:20px 0 10px;
 	font-size: 12px;
@@ -944,6 +992,8 @@ footer li.signup-link a:hover{
 footer a:hover{
 	color: #dd5638;
 }
+
+Promotion
 
 /*BLOG*/
 

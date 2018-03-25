@@ -5,7 +5,7 @@ $author_image			= get_field('author_image');
  ?>
 <!-- About -->
 
-<section id="boost-income">
+<section id="content-about">
 	<div class="container">
 		<div class="section-header">
 		
@@ -16,7 +16,7 @@ $author_image			= get_field('author_image');
 
 			<img src="<?php echo $author_image['url']; ?>" alt="<?php echo $author_image['alt']; ?>">
 
-	    <?php endif; ?>
+	    		<?php endif; ?>
 			</div> <!-- col -->
 			<div class="col-sm-6">
 				<p><?php echo $author_story?></p>
