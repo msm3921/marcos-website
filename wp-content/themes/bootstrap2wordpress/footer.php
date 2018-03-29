@@ -82,8 +82,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="<?php bloginfo('template_directory')?>/assets/js/jquery-2.2.4.min.js"></script>
     <script src="<?php bloginfo('template_directory')?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_directory')?>/assets/js/in-view.js"></script>
     
     <script src="<?php bloginfo('template_directory')?>/assets/js/main.js"></script>
+    <script src="<?php bloginfo('template_directory')?>/assets/js/colorChange.js"></script>
     
     <script type="<?php bloginfo('template_directory')?>/text/javascript" src="//use.typekit.net/gla7wnd.js"></script>
 	<script type="<?php bloginfo('template_directory')?>/text/javascript">try{Typekit.load();}catch(e){}</script>

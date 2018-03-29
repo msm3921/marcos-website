@@ -29,16 +29,8 @@
 	</div><!-- post-image -->
 	<?php } ?>
 	
-	<div class="post-excerpt">
-		<?php if ( is_single() ) : ?>
-			<div class="post-body">
-			    <?php the_content(); ?>
-			</div><!-- post-content -->
-			<?php else : ?>
-			<div class="post-excerpt">
-			    <?php the_excerpt(); ?>
-			</div><!-- post-excerpt -->
-		<?php endif; ?>
-	</div><!-- post-excerpt -->
-	
+	<div class="post-body">
+		<?php the_content(); ?>
+	</div><!-- post-body -->
+
 </article><!-- #post-## -->

@@ -50,7 +50,7 @@
 								<span class="icon-bar"></span>
 							</button>
 							<!-- <a class="navbar-brand"href="/">
-								<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo.png"
+								<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/temp-logo.png"
 								 alt="Marcos Hernandez"
 								>
 							</a> -->
