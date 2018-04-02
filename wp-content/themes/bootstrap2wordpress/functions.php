@@ -46,6 +46,7 @@ if ( ! function_exists( 'bootstrap2wordpress_setup' ) ) :
 		register_nav_menus( array(
 			'Primary' => esc_html__( 'Primary', 'bootstrap2wordpress' ),
 		) );
+		
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -164,4 +165,5 @@ function new_excerpt_more($more) {
 	return '... <a class="moretag" href="'. get_permalink($post->ID) . '"> continue reading &raquo;</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
+
 

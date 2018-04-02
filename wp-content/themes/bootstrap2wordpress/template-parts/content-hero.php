@@ -8,21 +8,20 @@
 		<section id="hero" date-type="background" data-speed="5">
 			<div class="container clearfix">
 					<div class="row">
+					<div class="hero-text text-center">
+						<h1><?php bloginfo('name') ?></h1>
+						<p class="lead"><?php bloginfo('description') ?></p>
+						</div><!-- hero-text -->
+						<!-- <p><a class="btn btn-lg btn-danger" href=" <?php $course_url; ?> " role="button"> <?php $button_text; ?> </a></p> -->
+					
+					</div> <!-- row -->
 					<!-- Hero Image-->
-					<div class="col-sm-5">
+					<div class="hero-image text-center">
 						<?php if(!empty($hero_emblem)) : ?>
 
-						<img src="<?php echo $hero_emblem['url']; ?>" alt="<?php echo $hero_emblem['alt']; ?>">
+						<img src="<?php echo $hero_emblem['url']; ?>" class="rounded" alt="<?php echo $hero_emblem['alt']; ?>">
 
 			   			<?php endif; ?>
 					</div> <!-- col -->
-
-					<div class="col-sm-7 hero-text">
-						<h1><?php bloginfo('name') ?></h1>
-						<p class="lead"><?php bloginfo('description') ?></p>
-						</div><!-- price-timeline -->
-						<!-- <p><a class="btn btn-lg btn-danger" href=" <?php $course_url; ?> " role="button"> <?php $button_text; ?> </a></p> -->
-					</div> <!-- col -->
-					</div> <!-- row -->
 				</div> <!-- container -->	
 		</section>

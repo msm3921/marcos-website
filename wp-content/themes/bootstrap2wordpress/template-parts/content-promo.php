@@ -7,12 +7,11 @@ $promo_description    = get_field('promo_description');
 <!-- Sign up-->
 
    <section id="content-promo">
-	<div class="container">
-		<div class="section-header container2">
+		<div class="section-header container d-flex h-100">
 		
 		<!-- If user uploaded an image -->
 		<!-- <div class="row jumbotron"> -->
-		<div class="row">
+		<div class="row align-items-center">
 			<div class="col-sm-6">
 				<h3 class="promo-title"><?php echo $promo_title ?></h3>
 				<p><?php echo $promo_description ?></p>

@@ -14,16 +14,16 @@
 
 get_header(); ?>
 
-	<section class="feature-image feature-image-default-alt" data-type="background" data-speed="2">
-		<h1 class="page-title">Blog</h1>
-	</section>
-
-
+<section id="content-blog">
 	<!-- BLOG CONTENT -->
 	<div class="container">
+		<div class="section-header">
+		<div>
+				<h3>Did you know...</h1>
+		</div>
 	    <div class="row" id="primary">
 	    
-		    <main id="content" class="col-sm-8" role="main">
+		    <main id="content" class="col-sm-12" role="main">
 			
 			<?php
 				if ( have_posts() ) :
@@ -58,10 +58,8 @@ get_header(); ?>
 				endif; ?>
 
 		    </main> <!-- content -->
-			
-			<!-- SIDEBAR
-			================================================== -->
-		    <aside class="col-sm-4">
-				<?php get_sidebar(); ?>
-		    </aside>
+		</div> <!-- row -->
+		</div> <!-- section header -->	
+	</div> <!-- container -->	
+</section>	
 <?php get_footer(); ?>  

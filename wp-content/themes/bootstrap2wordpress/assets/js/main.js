@@ -25,3 +25,9 @@ $(function() {
 	});
 	
 });
+
+
+
+$(function() {
+    $('.box').matchHeight();
+});

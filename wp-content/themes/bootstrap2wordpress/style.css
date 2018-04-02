@@ -593,7 +593,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	background: url('/wp-content/themes/bootstrap2wordpress/assets/img/tile.jpg') top left repeat;
+	font-size: 100%;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  	color: #ecf0f1;
+  	background: #222222;
 }
+
 
 /* doing this separately without > or li keeps background tab highlighted when rolled over */
 .navbar-nav .current_page_item,
@@ -695,36 +700,6 @@ img {
 .module-content{
 	background: url("/wp-content/themes/bootstrap2wordpress/assets/img/tile.jpg") top left repeat;
 }
-/*
-By not having a space between the two classes we are combining 
-them. If there was a space between that would de a decedent
-selector*/
-.badge.social{
-background: #ccc;
-font-size: 24px;
-height: 40px;
-width: 40px;
-text-align: center;
-line-height: 42px;
-margin: 0 5px 20px 0;
-padding: 0;
--webkit-border-radius:50px;
--moz-border-radius:50px;
-border-radius: 50px;
-color:white;
-}
-
-.badge.social.twitter:hover{
-	background: #55acee;
-}
-
-.badge.social.facebook:hover{
-	background: #3b5998;
-}
-
-.badge.social.gplus:hover{
-	background: #db4b39;
-}
 
 blockquote{
 	padding: 0;
@@ -752,12 +727,16 @@ blockquote:before{
 	/*background-color: black;*/
 	/*background: url('/wp-content/themes/bootstrap2wordpress/assets/img/Sci-Fi-LandscapeRed.jpg') 50% 0 repeat fixed;*/
 	/*background: url('/wp-content/themes/bootstrap2wordpress/assets/img/black-texture.jpg') 50% 0 repeat fixed;*/
-	min-height: 500px;
+	min-height: 300px;
 	padding: 40px 0;
 	/*font-family: 'Montserrat', sans-serif;;*/
 	color:black;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+}
+
+#hero h1 {
+	font-size: 5em;
 }
 
 .hero-image{
@@ -767,7 +746,7 @@ blockquote:before{
 
 .hero-image-default {
 	/*background: url('/wp-content/themes/bootstrap2wordpress/assets/img/hero-bg.jpg') 50% 0 repeat fixed;*/
-	min-height: 500px;
+	min-height: 300px;
 	padding: 40px 0;
 	color:white;
 	-webkit-font-smoothing: antialiased;
@@ -784,57 +763,9 @@ blockquote:before{
 }
 
 .hero-text h1{
-	color:red;
+	color:#dd5638;
 	font-weight: 400;
 }
-
-#price-timeline{
-	margin:30px 0 60px;
-	text-align: center;
-}
-
-#price-timeline .price{
-	display: inline-block;
-	margin:0 2% 0 0;
-	width: 30%;
-	background: #3e4249;
-	padding: 10px 20px 30px;
-	position: relative;
-	vertical-align: top;
-}
-
-#price-timeline .price.active{
-	background: #dd5638;
-}
-
-#price-timeline .price span {
-	background: #101010;
-	display: block;
-	height: 70px;
-	width: 70px;
-	text-align: center;
-	line-height: 70px;
-	font-weight: bold;
-	font-size: 24px;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	position: absolute;
-	bottom: -35px;  /* -35 here b/c you want it to be half the height of the actual circle*/
-	left: 50%;
-	margin-left: -35px;
-}
-
-#price-timeline h4 {
-	margin: 0 0 10px;
-}
-
-#price-timeline h4 small {
-	color: white;
-	font-weight: bold;
-	display: block;
-}
-
 /* ==== LAYOUT ==== */
 
 
@@ -890,27 +821,51 @@ section h3{
 	color: white;
 }
 
-/*Promo Section*/
-.promo-title{
-	color:red;
+
+/*Content-Book*/
+#content-book{
+/*background-color: #4A4A4A*/
 }
 
-/*.container2 {
-  position: relative;
-  height: 14rem;
-  border: 1px solid;
+#content-book h3{
+	color: #dd5638;
+	font-size: 2.5em;
 }
 
-.jumbotron {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  border: 1px;
-}*/
+#content-book p{
+	color: white;
+	font-size: 1.5em;
+}
+
+/*Content-Blog*/
+#content-blog{
+/*background-color: #4A4A4A*/
+}
+
+#content-blog h3{
+	color: #dd5638;
+	font-size: 2.5em;
+}
+
+#content-blog p{
+	color: white;
+	font-size: 1.5em;
+}
+
 
 /*Content-Promo*/
 #content-promo{
 /*background-color: #4A4A4A*/
+}
+
+#content-promo h3{
+	color: #dd5638;
+	font-size: 2em;
+}
+
+#content-promo p{
+	color: white;
+	font-size: 1.5em;
 }
 
 /*Content-Latest*/
@@ -924,13 +879,30 @@ section h3{
 
 
 #content-latest h3{
-	color: red;
+	color: #dd5638;
+	font-size: 2em;
 }
 
 #content-latest p{
 	color: white;
+	font-size: 1.5em;
 }
 
+/*Content-About*/
+
+#content-about p{
+	color: white;
+	font-size: 2em;
+	padding: 50px;
+	text-align: left;
+}
+
+#content-about h3{
+	color: #dd5638;
+	font-size: 2.5em;
+}
+
+/*Content-Optin*/
 #optin {
 	background: black; /*#3e4249;*/
 	padding: 20px 0;
@@ -966,6 +938,13 @@ section h3{
 	font-size: 24px;
 }
 
+/*Sub Section*/
+#subSection p{
+	padding: 30px;
+	font-size: 3em;
+}
+
+
 footer{
 	/*background-color: #4A4A4A;*/
 	color: white;
@@ -993,7 +972,6 @@ footer a:hover{
 	color: #dd5638;
 }
 
-Promotion
 
 /*BLOG*/
 
@@ -1226,309 +1204,6 @@ background: #aaa;
 /****************/
 /****************/
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.bg--turquoise {
-  background: #1abc9c;
-}
-
-.bg--green-sea {
-  background: #16a085;
-}
-
-.bg--emerald {
-  background: #2ecc71;
-}
-
-.bg--nephrtis {
-  background: #27ae60;
-}
-
-.bg--peter-river {
-  background: #3498db;
-}
-
-.bg--belize-hole {
-  background: #2980b9;
-}
-
-.bg--midnight-blu {
-  background: #2c3e50;
-}
-
-.bg--midnight-blu {
-  background: #2c3e50;
-}
-
-.bg--amethyst {
-  background: #9b59b6;
-}
-
-.bg--wisteria {
-  background: #8e44ad;
-}
-
-.bg--sun-flower {
-  background: #f1c40f;
-}
-
-.bg--orange {
-  background: #f39c12;
-}
-
-.bg--pumpkin {
-  background: #d35400;
-}
-
-.bg--carrot {
-  background: #e67e22;
-}
-
-.bg--pumpkin {
-  background: #d35400;
-}
-
-.bg--alizarin {
-  background: #e74c3c;
-}
-
-.bg--pomegranate {
-  background: #c0392b;
-}
-
-.bg--clouds {
-  background: #ecf0f1;
-}
-
-.bg--silver {
-  background: #bdc3c7;
-}
-
-.bg--concrete {
-  background: #95a5a6;
-}
-
-.bg--asbestos {
-  background: #7f8c8d;
-}
-
-.bg--dark {
-  background: #222222;
-}
-
-.bg--dark_light {
-  background: #393433;
-}
-
-body {
-  font-size: 100%;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  color: #ecf0f1;
-  background: #222222;
-}
-
-.wrapper {
-  transition: background .2s ease;
-}
-
-.section {
-  height: 100vh;
-}
-
-.short {
-  height: 33.3333333333vh;
-}
-
-.title {
-  white-space: nowrap;
-  font-weight: 100;
-  font-size: 4vw;
-  font-color: #ecf0f1;
-}
-.title a {
-  color: inherit;
-}
-.title html {
-  font-family: 'Montserrat', sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-.title body {
-  margin: 0;
-}
-.title article,
-.title aside,
-.title details,
-.title figcaption,
-.title figure,
-.title footer,
-.title header,
-.title main,
-.title menu,
-.title nav,
-.title section,
-.title summary {
-  display: block;
-}
-.title audio,
-.title canvas,
-.title progress,
-.title video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-.title audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-.title [hidden],
-.title template {
-  display: none;
-}
-.title a {
-  background-color: transparent;
-}
-.title a:active,
-.title a:hover {
-  outline: 0;
-}
-.title abbr[title] {
-  border-bottom: 1px dotted;
-}
-.title b,
-.title strong {
-  font-weight: bold;
-}
-.title dfn {
-  font-style: italic;
-}
-.title h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-.title mark {
-  background: #ff0;
-  color: #000;
-}
-.title small {
-  font-size: 80%;
-}
-.title sub,
-.title sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-.title sup {
-  top: -0.5em;
-}
-.title sub {
-  bottom: -0.25em;
-}
-.title img {
-  border: 0;
-}
-.title svg:not(:root) {
-  overflow: hidden;
-}
-.title figure {
-  margin: 1em 40px;
-}
-.title hr {
-  box-sizing: content-box;
-  height: 0;
-}
-.title pre {
-  overflow: auto;
-}
-.title code,
-.title kbd,
-.title pre,
-.title samp {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-}
-.title button,
-.title input,
-.title optgroup,
-.title select,
-.title textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-.title button {
-  overflow: visible;
-}
-.title button,
-.title select {
-  text-transform: none;
-}
-.title button,
-.title html input[type="button"],
-.title input[type="reset"],
-.title input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-.title button[disabled],
-.title html input[disabled] {
-  cursor: default;
-}
-.title button::-moz-focus-inner,
-.title input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-.title .clickable {
-  cursor: pointer;
-}
-.title input {
-  line-height: normal;
-}
-.title input[type="checkbox"],
-.title input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-.title input[type="number"]::-webkit-inner-spin-button,
-.title input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-.title input[type="search"]::-webkit-search-cancel-button,
-.title input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-.title fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-.title legend {
-  border: 0;
-  padding: 0;
-}
-.title textarea {
-  overflow: auto;
-}
-.title optgroup {
-  font-weight: bold;
-}
-.title table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.title td,
-.title th {
-  padding: 0;
-}
 /****************/
 /****************/
 /*MEDIA QUERIES*/
@@ -1572,7 +1247,12 @@ body {
 		margin-right: 2%;
 		min-height: 800px;
 	}
+
+	.box {
+    height: auto !important;
+  } 
 }
+
 
 @media screen and (max-width: 600px){
 	.admin-bar .navbar-fixed-top {

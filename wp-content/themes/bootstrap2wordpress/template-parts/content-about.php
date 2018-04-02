@@ -8,7 +8,9 @@ $author_image			= get_field('author_image');
 <section id="content-about">
 	<div class="container">
 		<div class="section-header">
-		
+		<div>
+				<h3>About</h1>
+		</div>
 		<!-- If user uploaded an image -->
 		<div class="row">
 			<div class="col-sm-6">
